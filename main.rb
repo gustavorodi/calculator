@@ -15,7 +15,8 @@ end
 
 calculadora = Main.new
 calculadora.InitTest()
-#calculadora.InitCalculator(Dividir, "a", 6)
-#calculadora.InitCalculator(Diminuir, 12, 6)
-#calculadora.InitCalculator(Multiplicar, 12, 6)
-#calculadora.InitCalculator(Somar, 12, 6)
+calculadora.InitCalculator(Dividir, "a", 6)
+calculadora.InitCalculator(Dividir, 12, 6)
+calculadora.InitCalculator(Diminuir, 12, 6)
+calculadora.InitCalculator(Multiplicar, 12, 6)
+calculadora.InitCalculator(Somar, 12, 6)
