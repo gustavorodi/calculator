@@ -4,7 +4,7 @@ require_relative '../ops/soma'
 require_relative '../ops/multiplicar'
 
 class ExecuteTest
-    def startTest ()
+    def startTestManual()
       puts "Teste da validação (As variáveis são numeros?): " + self.testValid().to_s
       puts "Teste soma passou ? " + self.testSoma().to_s
       puts "Teste Divisão passou ? " + self.testDivisao().to_s
